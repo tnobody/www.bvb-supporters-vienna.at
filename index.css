@@ -767,6 +767,18 @@ a:has(svg) {
   background-image: url('http://www.bvb-supporters-vienna.at/wp-content/uploads/2016/06/IMG-20171125-WA0008-576x1024.jpg');
 }
 
+.bg-\[url\(\'hnt\/uploads\/2016\/06\/IMG-20171125-WA0008-576x1024\.jpg\'\)\] {
+  background-image: url('hnt/uploads/2016/06/IMG-20171125-WA0008-576x1024.jpg');
+}
+
+.bg-\[url\(\'img\.jpg\'\)\] {
+  background-image: url('img.jpg');
+}
+
+.bg-\[url\(\'img\/testemonial\.jpg\'\)\] {
+  background-image: url('img/testemonial.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
