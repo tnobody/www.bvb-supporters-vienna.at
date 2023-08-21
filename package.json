@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts": {
+    "tw": "npx tailwindcss -i ./_index.css -o ./index.css",
+    "tw:dev": "npx tailwindcss -i ./_index.css -o ./index.css --watch",
+    "serve": "serve",
+    "dev":"concurrently \"npm run tw:dev\" \"npm run serve\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "serve": "^14.2.1"
+  }
+}
